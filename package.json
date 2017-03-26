@@ -9,6 +9,10 @@
     "build": "webpack -p",
     "start": "webpack-dev-server --inline --hot"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hoffination/react-tangle-result.git"
+  },
   "author": "hoffination",
   "license": "BSD",
   "keywords": [
@@ -38,5 +42,13 @@
   "dependencies": {
     "babel-runtime": "~6.23.0",
     "react": "~15.4.2"
-  }
+  },
+  "files": [
+    "dist",
+    "lib",
+    "spec",
+    "karma.conf.js"
+    "package.json",
+    "webpack.config.js",
+  ]
 }
