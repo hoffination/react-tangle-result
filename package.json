@@ -1,6 +1,6 @@
 {
   "name": "react-tangle-result",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "react tangle result",
   "main": "dist/index.js",
   "scripts": {
@@ -47,8 +47,8 @@
     "dist",
     "lib",
     "spec",
-    "karma.conf.js"
+    "karma.conf.js",
     "package.json",
-    "webpack.config.js",
+    "webpack.config.js"
   ]
 }
