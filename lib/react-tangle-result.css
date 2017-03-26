@@ -1,0 +1,55 @@
+.tangle-result {
+  padding: 2px;
+}
+
+@-webkit-keyframes tr-increasing {
+  0% {
+    color: Green;
+    font-size: 1.2em;
+  }
+  50% {
+    color: Green;
+    font-size: 1.2em;
+  }
+  100% {
+    color: Black;
+  }
+}
+
+.tr-increasing {
+  -webkit-animation-name: tr-increasing;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+  -moz-animation-name: tr-increasing;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes tr-decreasing {
+  0% {
+    color: Red;
+    border-bottom: red solid 1px;
+    font-size: .8em;
+  }
+  77% {
+    color: Red;
+    border-bottom: red solid 1px;
+    font-size: .8em;
+  }
+  100% {
+    color: Black;
+  }
+}
+
+.tr-decreasing {
+  -webkit-animation-name: tr-decreasing;
+    -webkit-animation-duration: 600ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+  -moz-animation-name: tr-decreasing;
+    -moz-animation-duration: 600ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+}
