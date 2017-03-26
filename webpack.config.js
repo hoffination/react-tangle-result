@@ -1,9 +1,14 @@
 /* jshint node: true */
 var path = require('path')
+var CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin')
 
 module.exports = {
   context: path.join(__dirname),
   entry: './lib/index.js',
+
+  plugins: [
+    new CaseSensitivePathsPlugin()
+  ],
 
   output: {
     path: path.join(__dirname, 'dist'),
