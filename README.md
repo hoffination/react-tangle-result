@@ -1,4 +1,5 @@
 # react-tangle-result
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
 A [tangle.js](http://worrydream.com/Tangle/) result display component for numeric output on React.js.
 
