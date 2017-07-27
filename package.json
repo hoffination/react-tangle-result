@@ -1,11 +1,11 @@
 {
   "name": "react-tangle-result",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "react tangle result",
   "main": "dist/index.js",
   "scripts": {
-    "test": "eslint lib/ spec/ && ./node_modules/karma/bin/karma start karma.conf.js",
-    "watch-test": "./node_modules/karma/bin/karma start karma.conf.js --auto-watch --no-single-run",
+    "test": "karma start karma.conf.js",
+    "watch-test": "karma start karma.conf.js --auto-watch --no-single-run",
     "build": "webpack -p",
     "start": "webpack-dev-server --inline --hot"
   },
