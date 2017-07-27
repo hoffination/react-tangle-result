@@ -1,9 +1,14 @@
 # react-tangle-result
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
-A [tangle.js](http://worrydream.com/Tangle/) result display component for numeric output on React.js.
+A [tangle.js](http://worrydream.com/Tangle/) result display component for accessible numeric output on React.js.
 
-Coming to an npm package near you in the future.
+[Demo](https://hoffination.github.io/react-tangle-result/)
+
+Changes are indicated in a number of ways
+- Green and red indicate which way the value changed
+- Growing and shrinking also help indicate
+- A bottom line indicates shrinking values as well for increased visibility
 
 ## API
 ```js
