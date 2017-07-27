@@ -4,7 +4,7 @@ import './react-tangle-result.css'
 const INCREASING = 'tr-increasing'
 const DECREASING = 'tr-decreasing'
 
-export default React.createClass({
+module.export = React.createClass({
   propTypes: {
     value: React.PropTypes.number.isRequired
   },
